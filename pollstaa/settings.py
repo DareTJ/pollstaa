@@ -26,7 +26,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 #DEBUG_VALUE = os.environ.get('DEBUG_VALUE')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
+# DEBUG = True
 
 ALLOWED_HOSTS = ['myawesomepollsapp.herokuapp.com']
 
