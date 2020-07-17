@@ -1,1 +1,1 @@
-"# pollstaa" 
+Polls application 
